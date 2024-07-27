@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.row-cols-md-2 {
+  width: 40%;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+
+}
+
+.carousel-item active {
+  width: 100%;
+}
+
+.container #carouselExample {
+  width: 45%;
+  margin: 2vw 3vw;
+}
+
+.container .card-img-top {
+  width: 37;
+}
+
+.p-3 .m-5 img {
+  width: 50%;
+}
+
+.container img {
+  width: 100%;
+}
+
+footer {
+  height: 7vh;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul {
+  display: flex;
+  gap: 2vw;
+  margin-right: 2vw;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5vw;
+}
+
+@media (max-width:600px) {
+
+  .g-5,
+  .gx-5 {
+    --bs-gutter-x: 3rem;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col .p-3  img {
+    width: 100%;
+  }
+
+  .container .card-img-top {
+    width: 42vh;
+  }
+
+  .cardbody {
+    width: 150%;
+  }
+
+  .row-cols-md-2 {
+    width: 64%;
+  }
+
+  .container img {
+    width: 34%;
+  }
+
+  .container #carouselExample {
+    width: 89%;
+    margin: 2vw 3vw;
+  }
+
+  .carousel slide .d-block {
+    width: 200%;
+  }
+
+  footer ul li a {
+    font-size: 3vh;
+    gap: 5vw;
+  }
+
+  .carousel-item.active {
+    display: block;
+    width: 306%;
+  }
+
+  .row-cols-1 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin: 5vh 0;
+}
+footer{
+  height: 7vh;
+}
+}
